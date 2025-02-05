@@ -1,0 +1,212 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;;
+    background-color: black;
+    padding: 50px;
+}
+
+.perfil-container{
+    background-color: rgb(30, 30, 31);
+    width: 350px;
+    height: 700px;
+    top: 50px;
+    border-radius: 20px;
+    position: fixed;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(56, 56, 56);
+    box-shadow: 0 0 10px 50px rgb(0, 0, 0);
+}
+
+.guias-container{
+    background-color: rgb(30, 30, 31);
+    width: 800px;
+    height: 700px; /* <--- Tirar depois*/
+    top: 50px;
+    position: absolute;
+    right: 150px;
+    border-radius: 20px;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+/*Informações de perfil*/
+
+.perfil-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 300px;
+    margin-top: 50px
+}
+
+.perfil-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#perfil-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+#perfil-name{
+    color: white;
+}
+.perfil-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 44);
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.perfil-description p{
+    color: #dfdbdb;
+    font-weight: 1px;
+}
+
+.perfil-lineDivision{
+    width: 70%;
+    background-color: rgb(56, 56, 56);
+    height: 1px;
+    margin-top: 15px;
+}
+
+/*------ABA PARA MEIOS DE CONTATO-----*/
+
+/*Aba para contato - Email*/
+
+.contact-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.email-logo-container{
+    background-color: rgb(32, 32, 34);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 15px rgb(26, 26, 26);
+}
+
+.email-info{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px;
+}
+.email-info p{
+    color: rgb(157, 159, 159);
+}
+.email-info a{
+    text-decoration: none;
+    color: #dfdbdb;
+}
+
+/*Aba de contato - Whatsapp*/
+
+.contact-whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.whatsapp-logo-container{
+    background-color: rgb(32, 32, 34);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 15px rgb(26, 26, 26);
+}
+
+.whatsapp-info{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px;
+}
+.whatsapp-info p{
+    color: rgb(157, 159, 159);
+}
+.whatsapp-info a{
+    text-decoration: none;
+    color: #dfdbdb;
+}
+
+/*Aba de contato - linkedin*/
+
+.contact-linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.linkedin-logo-container{
+    background-color: rgb(32, 32, 34);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 15px rgb(26, 26, 26);
+}
+
+.linkedin-info{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px;
+}
+.linkedin-info p{
+    color: rgb(157, 159, 159);
+}
+.linkedin-info a{
+    text-decoration: none;
+    color: #dfdbdb;
+}
