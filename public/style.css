@@ -18,7 +18,6 @@ body{
 .perfil-container{
     background-color: rgb(30, 30, 31);
     width: 350px;
-    height: 700px;
     top: 50px;
     border-radius: 20px;
     position: fixed;
@@ -28,6 +27,8 @@ body{
     align-items: center;
     border: 1px solid rgb(56, 56, 56);
     box-shadow: 0 0 10px 50px rgb(0, 0, 0);
+    padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .guias-container{
@@ -39,6 +40,7 @@ body{
     right: 150px;
     border-radius: 20px;
     border: 1px solid rgb(56, 56, 56);
+    overflow: hidden;
 }
 
 /*Informações de perfil*/
@@ -209,4 +211,30 @@ body{
 .linkedin-info a{
     text-decoration: none;
     color: #dfdbdb;
+}
+
+/*---ABA DE GUIAS----*/
+
+/*----CABEÇALHO------*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guias{
+    background-color: rgb(40, 40, 41);
+    gap: 30px;
+    height: 70px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    padding: 20px;
+    color: azure;
+    box-shadow: -5px 5px 20px 2px rgb(31, 31, 31);
 }
