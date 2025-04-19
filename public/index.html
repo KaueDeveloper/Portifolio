@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kauê Barreto Benicio">
+    <meta name="description" content="Prtifólio de Kauê Barreto Benicio">
+    <meta name="keywords" content="kauê barreto benicio, portifolio, tecnologia, programador, desenvolvedor">
+    <link rel="icon" href="/assets/icone.ico">
+    <title>Kauê Barreto Benicio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Partículas de fundo -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <nav>
+        <a href="https://kaue-barreto.com" class="logo">kaueproductions</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#projects">Projetos</a>
+          <a href="#skills">Skills</a>
+          <!-- <a href="#contact">Contato</a> -->
+        </div>
+        <div class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-subtitle">DESENVOLVEDOR FULL STACK</p>
+        <h1 class="hero-title">Olá, eu sou <span>Kauê</span></h1>
+        <p class="hero-description">
+            Transformo ideias em experiências digitais inovadoras, unindo criatividade, tecnologia e propósito em cada projeto.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary"
+            >Ver Projetos <i class="fas fa-arrow-right"></i
+          ></a>
+          <a href="https://wa.me/qr/EWKPWS5TZKW4N1" class="btn btn-secondary" target="_blank">Contato</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="/assets/criativo.png" alt="Imagem Hero" />
+      </div>
+    </section>
+
+    <!-- Sessão sobre mim-->
+    <section class="section" id="about">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="about-container">
+        <div class="about-content">
+          <h3>Quem sou eu?</h3>
+          <p>
+            Olá! Meu nome é Kauê Barreto Benicio e sou desenvolvedor web júnior com paixão por criar experiências digitais modernas, funcionais e interativas. Estou sempre em busca de aprendizado e novos desafios.
+          </p>
+          <p>
+            Atualmente, estou focado em ampliar meus conhecimentos em tecnologias modernas e boas práticas de desenvolvimento. Meu objetivo é me tornar um desenvolvedor completo, capaz de entregar soluções de alto nível e colaborar em projetos que realmente façam a diferença.
+          </p>
+          <div class="tech-stack">
+            <div class="tech-item">HTML</div>
+            <div class="tech-item">CSS</div>
+            <div class="tech-item">JavaScript</div>
+            <div class="tech-item">Node.js</div>
+            <div class="tech-item">MySQL</div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="/assets/kaue-image.png" alt="Minha foto" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sessão de projetos-->
+    <section class="section" id="projects">
+      <h2 class="section-title">Meus Projetos</h2>
+      <div class="projects-container">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img id="project-thumb-1" src="/assets/zenpost-thumb.png" alt="Projeto 1" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Zenpost</h3>
+            <p class="project-description">
+              Projeto em desenvolvimento
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fas fa-eye"></i> Ver Demo</a
+              >
+              <a href="#" class="project-link"
+                ><i class="fab fa-github"></i> Código</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img id="project-thumb-2" src="/assets/codestore-thumb.png" alt="Projeto 2" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ecommerce simples</h3>
+            <p class="project-description">
+              Projeto em desenvolvimento
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fas fa-eye"></i> Ver Demo</a
+              >
+              <a href="#" class="project-link"
+                ><i class="fab fa-github"></i> Código</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sessão sobre minhas skills -->
+    <section class="section" id="skills">
+      <h2 class="section-title">Minhas Skills</h2>
+      <div class="skills-container">
+        <!-- Frontend Skills -->
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">CSS</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percentage">52%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="52"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">PHP</span>
+              <span class="skill-percentage">22%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="22"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-percentage">12%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="12"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database Skills -->
+        <div class="skill-category">
+          <h3>Banco de Dados</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">MySQL</span>
+              <span class="skill-percentage">65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="65"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">MongoDB</span>
+              <span class="skill-percentage">1%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="1"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-percentage">1%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="1"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Firebase</span>
+              <span class="skill-percentage">1%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sessão de contato -->
+    <section class="section" id="contact">
+      <h2 class="section-title">Entre em Contato</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Vamos Conversar</h3>
+          <p>
+            Estou disponível para novos projetos e oportunidades. Entre em
+            contato para discutirmos como posso ajudar a transformar suas ideias
+            em realidade.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>kauebarretobenicio@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+55 (74) 999257033</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Presidente Dutra-BA, Brasil</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Seu Nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Seu Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Assunto" />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/KaueDeveloper" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kau%C3%AA-barreto-8418b5272/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">
+          &copy; 2025 kaueproductions. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
